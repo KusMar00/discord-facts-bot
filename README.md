@@ -11,11 +11,11 @@ This is a simple bot that will spit out a random fact from [api-ninjas Facts API
 5. Create a `.env` file with the information from steps 1-4: _API key_, _Application ID (CLIENTID)_, _Server ID_ and _Token_.
 
 ```javascript
-// .env file
-CLIENTID = YOUR_CLIENT_ID;
-SERVERID = YOUR_SERVER_ID;
-TOKEN = YOUR_TOKN;
-API_KEY = YOUR_API_KEY;
+// .env
+CLIENTID=YOUR_CLIENT_ID;
+SERVERID=YOUR_SERVER_ID;
+TOKEN=YOUR_TOKN;
+API_KEY=YOUR_API_KEY;
 ```
 
 6. Run `node bot.js` to start the bot.
