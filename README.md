@@ -10,7 +10,7 @@ This is a simple bot that will spit out a random fact from [api-ninjas Facts API
 4. In the discord client, find you server id by enabling _Developer Mode_ under _Advanced Settings_, right clicking your server and selecting _Copy ID_.
 5. Create a `.env` file with the information from steps 1-4: _API key_, _Application ID (CLIENTID)_, _Server ID_ and _Token_.
 
-```
+```javascript
 // .env file
 CLIENTID = YOUR_CLIENT_ID;
 SERVERID = YOUR_SERVER_ID;
@@ -18,4 +18,4 @@ TOKEN = YOUR_TOKN;
 API_KEY = YOUR_API_KEY;
 ```
 
-6. To start the bot run `node bot.js`
+6. Run `node bot.js` to start the bot.
